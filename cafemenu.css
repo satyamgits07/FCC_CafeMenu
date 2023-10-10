@@ -1,0 +1,87 @@
+h1,h2,p{
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact,serif;/*You can add a fallback value for the font-family by adding another 
+                                font name separated by a comma. Fallbacks are used in instances where
+                                 the initial is not found/available.
+
+                                Add the fallback font serif after the Impact font.*/
+}
+
+.menu{
+    padding-left:20px;
+    padding-right:20px;
+    width:80%;
+    background-color: burlywood;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;       /*when all the side are of equal margin then simply use padding 
+                         without giving direction like top bottom left right*/
+    max-width: 500px;   /*Add a max-width property to the menu class with a 
+                        value of 500px to prevent it from growing too wide.*/
+}
+body{
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family:sans-serif;
+    padding:20px;
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.item p{
+    display: inline-block;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.established{
+    font-family :italic,
+}
+/*this type is known as selector*/
+h1{
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+h2{
+    font-size:30px;
+}
+
+hr{
+    height:2px;  
+    background-color:brown;
+    border-color:brown;
+}
+footer{
+    font-size:14px;
+}
+a{
+    color:black;
+}/* a:(anyfunction)-->>this typ is known as psuedo selector*/
+a:visited{                 
+    color:rgb(0, 0, 0);
+}
+a:hover{                            /* hover tag is use when you move the cursor to the link , the 
+                                        color of the link get changed*/
+    color:brown;
+}
+a:active{
+    color:rgb(86, 40, 40);   /*active tag use in changing the color of the link when we click on the link*/
+}
+.address{
+    margin-bottom:15px;
+}
+
+img{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:-25px;
+}
